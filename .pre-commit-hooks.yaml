@@ -1,0 +1,5 @@
+- id: style-files
+  name: Style R files using styler::tidyverse_style
+  entry: hooks/style.R
+  language: script
+  files: \.R$
