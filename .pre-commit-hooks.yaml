@@ -3,3 +3,8 @@
   entry: hooks/style.R
   language: script
   files: \.R$
+- id: check-secrets
+  name: Check for hardcoded passwords
+  entry: hooks/check-secrets.sh
+  language: script
+  files: \.sh$
