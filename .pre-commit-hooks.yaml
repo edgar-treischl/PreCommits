@@ -1,12 +1,14 @@
-hooks:
-  - id: style-files
-    name: Style R files using styler::tidyverse_style
-    entry: hooks/style.R
-    language: script
-    files: "\\.R$"
+repos:
+  - repo: local
+    hooks:
+      - id: check-secrets
+        name: "Check for hardcoded secrets (custom grep)"
+        entry: hooks/check-secrets.sh
+        language: script
+        types: [text]
 
-  - id: check-secrets
-    name: Check for hardcoded passwords
-    entry: hooks/check-secrets.sh
-    language: script
-    files: "\\.sh$"
+      - id: style-files
+        name: Style R files using styler::tidyverse_style
+        entry: hooks/style.R
+        language: script
+        files: "\\.R$"
