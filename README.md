@@ -1,10 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# precommits
+# PreCommits
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of precommits is to …
+This is work in progress. Please come back later.
