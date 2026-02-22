@@ -7,4 +7,4 @@
 
 <!-- badges: end -->
 
-This is work in progress. Please come back later.
+This is work in progress.
